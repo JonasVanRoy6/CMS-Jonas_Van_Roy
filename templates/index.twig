@@ -1,0 +1,24 @@
+{% extends "_layouts/main" %}
+
+{% block scripts %}
+    {{ parent() }}
+    
+{% endblock %}
+
+{% block main %}
+<p id = 'order'> Order by</p>
+<div class="sort-buttons">
+    <button onclick="sortItemsByScore('asc')">Lowest Score</button>
+    <button onclick="sortItemsByScore('desc')">Highest Score</button>
+</div>
+<section class="product-list">
+    {% for drink in craft.entries.section('drinks').limit(9).all() %}
+    <article class="product">
+        <img src="{{drink.drinkImage.one().getUrl('medium') }}" alt="Product 1">
+        <h2>{{drink.title}}</h2>
+        <p>{{drink.beschrijving}}</p>
+        <span class="score">★{{drink.score}}</span>
+    </article>
+    {% endfor %}
+</section>
+{% endblock %}

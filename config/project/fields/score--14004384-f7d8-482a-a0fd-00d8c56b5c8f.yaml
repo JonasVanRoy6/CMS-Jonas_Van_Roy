@@ -1,0 +1,20 @@
+columnSuffix: uvymsfej
+contentColumnType: 'decimal(12,2)'
+fieldGroup: ffc5b93d-e571-4d92-a564-280a8db6237e # Common
+handle: score
+instructions: null
+name: score
+searchable: false
+settings:
+  decimals: 2
+  defaultValue: null
+  max: null
+  min: 0
+  prefix: null
+  previewCurrency: null
+  previewFormat: decimal
+  size: null
+  suffix: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

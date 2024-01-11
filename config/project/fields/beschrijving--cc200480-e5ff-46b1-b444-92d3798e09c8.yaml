@@ -1,0 +1,19 @@
+columnSuffix: pgfoymjv
+contentColumnType: text
+fieldGroup: 9603d0d8-6306-462f-a967-b1719be59cd2 # Drinks
+handle: beschrijving
+instructions: 'korte beschrijving van het drankje'
+name: beschrijving
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

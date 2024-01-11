@@ -1,0 +1,47 @@
+defaultPlacement: end
+fieldLayouts:
+  918bed31-4427-49ac-9a1d-789e15fc1b22:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: 005d4839-eca1-4c5f-ac86-42d47db37ead
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: f64099ea-5faf-46f1-bf44-e3d3b2f6d542
+        userCondition: null
+handle: under4Stars
+name: 'under 4 stars'
+siteSettings:
+  75d00fd6-59d1-4155-8a76-00491194e8ff: # examen-Jonas-van-roy
+    hasUrls: true
+    template: null
+    uriFormat: 'under-4-stars/{slug}'
+structure:
+  maxLevels: null
+  uid: a848d493-f8cb-4652-b8b8-0521872293e0
